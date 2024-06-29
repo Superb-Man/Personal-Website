@@ -26,36 +26,24 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const BAMF_DESKTOP_FILE_HINT: string;
 	export const CHROME_DESKTOP: string;
 	export const COLOR: string;
 	export const COLORTERM: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
+	export const DBUS_STARTER_ADDRESS: string;
+	export const DBUS_STARTER_BUS_TYPE: string;
 	export const DESKTOP_SESSION: string;
 	export const DISPLAY: string;
 	export const EDITOR: string;
 	export const GDK_BACKEND: string;
-	export const GDK_BACKEND_VSCODE_SNAP_ORIG: string;
 	export const GDMSESSION: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
-	export const GIO_MODULE_DIR: string;
-	export const GIO_MODULE_DIR_VSCODE_SNAP_ORIG: string;
 	export const GIT_ASKPASS: string;
-	export const GJS_DEBUG_OUTPUT: string;
-	export const GJS_DEBUG_TOPICS: string;
 	export const GNOME_DESKTOP_SESSION_ID: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GPG_AGENT_INFO: string;
-	export const GSETTINGS_SCHEMA_DIR: string;
-	export const GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG: string;
-	export const GTK_EXE_PREFIX: string;
-	export const GTK_EXE_PREFIX_VSCODE_SNAP_ORIG: string;
-	export const GTK_IM_MODULE_FILE: string;
-	export const GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG: string;
 	export const GTK_MODULES: string;
-	export const GTK_PATH: string;
-	export const GTK_PATH_VSCODE_SNAP_ORIG: string;
 	export const HOME: string;
 	export const IM_CONFIG_PHASE: string;
 	export const INIT_CWD: string;
@@ -73,8 +61,6 @@ declare module '$env/static/private' {
 	export const LC_TIME: string;
 	export const LESSCLOSE: string;
 	export const LESSOPEN: string;
-	export const LOCPATH: string;
-	export const LOCPATH_VSCODE_SNAP_ORIG: string;
 	export const LOGNAME: string;
 	export const LS_COLORS: string;
 	export const MANAGERPID: string;
@@ -120,10 +106,8 @@ declare module '$env/static/private' {
 	export const WINDOWPATH: string;
 	export const XAUTHORITY: string;
 	export const XDG_CONFIG_DIRS: string;
-	export const XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const XDG_DATA_DIRS: string;
-	export const XDG_DATA_DIRS_VSCODE_SNAP_ORIG: string;
 	export const XDG_MENU_PREFIX: string;
 	export const XDG_RUNTIME_DIR: string;
 	export const XDG_SESSION_CLASS: string;
@@ -180,36 +164,24 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		BAMF_DESKTOP_FILE_HINT: string;
 		CHROME_DESKTOP: string;
 		COLOR: string;
 		COLORTERM: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
+		DBUS_STARTER_ADDRESS: string;
+		DBUS_STARTER_BUS_TYPE: string;
 		DESKTOP_SESSION: string;
 		DISPLAY: string;
 		EDITOR: string;
 		GDK_BACKEND: string;
-		GDK_BACKEND_VSCODE_SNAP_ORIG: string;
 		GDMSESSION: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
 		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
-		GIO_MODULE_DIR: string;
-		GIO_MODULE_DIR_VSCODE_SNAP_ORIG: string;
 		GIT_ASKPASS: string;
-		GJS_DEBUG_OUTPUT: string;
-		GJS_DEBUG_TOPICS: string;
 		GNOME_DESKTOP_SESSION_ID: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GPG_AGENT_INFO: string;
-		GSETTINGS_SCHEMA_DIR: string;
-		GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG: string;
-		GTK_EXE_PREFIX: string;
-		GTK_EXE_PREFIX_VSCODE_SNAP_ORIG: string;
-		GTK_IM_MODULE_FILE: string;
-		GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG: string;
 		GTK_MODULES: string;
-		GTK_PATH: string;
-		GTK_PATH_VSCODE_SNAP_ORIG: string;
 		HOME: string;
 		IM_CONFIG_PHASE: string;
 		INIT_CWD: string;
@@ -227,8 +199,6 @@ declare module '$env/dynamic/private' {
 		LC_TIME: string;
 		LESSCLOSE: string;
 		LESSOPEN: string;
-		LOCPATH: string;
-		LOCPATH_VSCODE_SNAP_ORIG: string;
 		LOGNAME: string;
 		LS_COLORS: string;
 		MANAGERPID: string;
@@ -274,10 +244,8 @@ declare module '$env/dynamic/private' {
 		WINDOWPATH: string;
 		XAUTHORITY: string;
 		XDG_CONFIG_DIRS: string;
-		XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG: string;
 		XDG_CURRENT_DESKTOP: string;
 		XDG_DATA_DIRS: string;
-		XDG_DATA_DIRS_VSCODE_SNAP_ORIG: string;
 		XDG_MENU_PREFIX: string;
 		XDG_RUNTIME_DIR: string;
 		XDG_SESSION_CLASS: string;

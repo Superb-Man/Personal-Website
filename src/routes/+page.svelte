@@ -30,7 +30,7 @@
             <p class="home-subtitle">{displayedText}</p>
         </div>
         {#if showImage}
-            <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/104999005/344055205-a1333b7b-2508-456f-98e3-9a489adf5ffe.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T061344Z&X-Amz-Expires=300&X-Amz-Signature=77c5d7d8d595019b135112cf4962b90af5fa6aaec9b1b01fbf307e8a7488ca11&X-Amz-SignedHeaders=host&actor_id=104999005&key_id=0&repo_id=817348756" alt="dragon2" class="transparent-image"/>
+            <img src = "https://github.com/Superb-Man/Superb-Man/assets/104999005/82b56716-2b45-4e91-8b70-7a7003cd912f" class="transparent-image"/>
         {/if}
     </div>
 </div>
