@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.activeLink {
+		@apply text-[#42a5f5] dark:text-blue-200 underline;
+	}
+
+	.inactiveLink {
+		@apply hover:text-[#1565c0];
+	}
+
+	.headerLink {
+		@apply underline text-[#1565c0] hover:text-blue-700;
+	}
+}
+
+@media (prefers-reduced-motion) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none !important;
+	}
+}
