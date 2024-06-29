@@ -30,7 +30,9 @@
 	}
 
 	const pageNames = {
-		'/': 'Projects',
+		'/': 'home',
+		'/projects': 'projects',
+		'/arts': 'arts',
 	};
 </script>
 

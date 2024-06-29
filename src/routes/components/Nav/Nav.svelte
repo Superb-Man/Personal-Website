@@ -94,7 +94,7 @@
 				</a>
 				<a
 					aria-label="Link to email"
-					href="mailto:aleksebastian@outlook.com"
+					href="mailto:kaziistiak253@gmail.com.com"
 					target="_blank"
 					rel="noopener noreferrer"
 					class={`w-6 h-6 transition duration-300 ease-in-out display-none ${dropdownArrowClass}`}
