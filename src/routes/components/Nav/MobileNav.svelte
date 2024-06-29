@@ -31,8 +31,6 @@
 
 	const pageNames = {
 		'/': 'Projects',
-		'/resume': 'Resume',
-		'/contact': 'Get in touch'
 	};
 </script>
 
@@ -71,7 +69,7 @@
 		class="dark:bg-[#1e1e1e]/90 backdrop-blur bg-white/90 h-[100lvh]"
 	>
 		<div in:slide={{ delay: 175 }} class={current === '/' ? 'activeLink' : 'inactiveLink'}>
-			<a href="/projects" on:click={handleNavToggle}><i class="fa-solid fa-house"></i></a>
+			<a href="/" on:click={handleNavToggle}><i class="fa-solid fa-house"></i></a>
 		</div>
 		<div in:slide={{ delay: 175 }} class={current === '/projects' ? 'activeLink' : 'inactiveLink'}>
 			<a href="/projects" on:click={handleNavToggle}><i class="fas fa-tasks"></i></a>
