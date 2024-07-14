@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    let description = `I am an enthusiast proogrammer who loves to code and learn new things. I have immense interest in solving problems and studying computer systems.
+    let description = `I am an enthusiast programmer who loves to code and learn new things. I have immense interest in solving problems and studying computer systems.
                         I am currently a final year student at BUET.I am trying my best to improve my academic performance.`;
 
     let displayedText = '';
@@ -36,7 +36,7 @@
 </div>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+	// @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
     .home {
         align-self: center;
         display: flex;

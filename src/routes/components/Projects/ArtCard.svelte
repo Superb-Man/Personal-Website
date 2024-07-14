@@ -7,7 +7,7 @@
 	};
 </script>
 
-<div 
+<div  
 	class="group w-80 h-80 overflow-hidden relative rounded-lg bg-white shadow-lg justify-self-center cursor-pointer transition transform hover:scale-105 hover:shadow-2xl"
 	on:click={viewImage}
 >
