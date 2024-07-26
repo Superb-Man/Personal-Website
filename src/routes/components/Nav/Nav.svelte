@@ -106,7 +106,7 @@
 				<a class={currentPage === '/' ? activeLinkClass : defaultLinkClass} href="/"><i class="fa-solid fa-house"></i></a>
 				<a class={currentPage === '/projects' ? activeLinkClass : defaultLinkClass} href="/projects"><i class="fas fa-tasks"></i></a>
 				<a class={currentPage === '/arts' ? activeLinkClass : defaultLinkClass} href="/arts"><i class="fa-solid fa-paintbrush"></i></a>
-				<a class={currentPage === '/skills' ? activeLinkClass : defaultLinkClass} href="/skills"><i class="fa-solid fa-code"></i></a>
+				<a class={currentPage === '/education' ? activeLinkClass : defaultLinkClass} href="/education"><i class="fas fa-graduation-cap"></i></a>
 			</div>
 		</div>
 	</div>

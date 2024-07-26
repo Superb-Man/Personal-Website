@@ -79,8 +79,8 @@
 		<div in:slide={{ delay: 175 }} class={current === '/arts' ? 'activeLink' : 'inactiveLink'}>
 			<a href="/arts" on:click={handleNavToggle}><i class="fa-solid fa-paintbrush"></i></a>
 		</div>
-		<div in:slide={{ delay: 175 }} class={current === '/skills' ? 'activeLink' : 'inactiveLink'}>
-			<a href="/skills" on:click={handleNavToggle}><i class="fa-solid fa-code"></i></a>
+		<div in:slide={{ delay: 175 }} class={current === '/education' ? 'activeLink' : 'inactiveLink'}>
+			<a href="/education" on:click={handleNavToggle}><i class="fas fa-graduation-cap"></i></a>
 		</div>
 
 		<div in:slide={{ delay: 700, duration: 750 }} class="flex gap-10">

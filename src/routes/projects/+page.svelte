@@ -87,7 +87,7 @@
 	{:else if errorOccurred}
 		<div class="text-red-500">An error occurred while fetching the projects.</div>
 	{:else} -->
-		<div in:fly={{ y: 200, duration: 1000 }} class="grid grid-cols-1 md:grid-cols-2 w-11/12 gap-16 md:gap-20">
+		<div in:fly={{ y: 200, duration: 1000 }} class="grid grid-cols-1 md:grid-cols-2 w-12/13 gap-16 md:gap-20">
 			{#each repoProjects as repo}
 				<Card {repo} />
 			{/each}

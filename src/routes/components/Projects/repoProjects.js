@@ -7,7 +7,7 @@ export let repoProjects = [
                     This project was made as a part of the Software Development course at CSE 408.
                     Throught the time ,the project was developed following process of development and industrial practise.
                     Also learnt about money transaction,CORS, etc`,    
-        topics: ['typescript','javascript','nodejs','svelte','express','tailwindcss','vite','postgresql'],
+        topics: ['typescript','javascript','nodejs','svelte','express','tailwindcss','vite','postgresql','web-app'],
         image : "/repoImages/history.jpg",
         url : `https://github.com/Superb-Man/e-TicketBooking`
     },
@@ -16,7 +16,7 @@ export let repoProjects = [
         description: `Classic PACMAN game rebuilt using openGL wrapper.Implemented 10 differentmazes
                         with different difficulty levels.Implemented fireballs , hiding and different speeds 
                         for different level.I hope you will really enjoy playing it.`,
-        topics: ['c','cpp','openGL'],
+        topics: ['c','cpp','openGL','game-development'],
         image : "/repoImages/pacman.jpg",
         url : `https://github.com/Superb-Man/PACPACMAN`
     },
@@ -25,7 +25,7 @@ export let repoProjects = [
         description: `Networking project using java and javafx.For making the ui 
                      components beautiful i used jphoneix library.Implemented 
                      realtime marketing transaction`,
-        topics: ['java'],
+        topics: ['java','socket','networking'],
         image : "/repoImages/yahoo.jpg",
         url : `https://github.com/Superb-Man/jfx-smol-project-`
     },
@@ -35,7 +35,7 @@ export let repoProjects = [
                         Implemented server and client side chat application.
                         Implemented only for console.At that time i was learning 
                         java networking and socket programming.So i thought to give a try in cpp.`,
-        topics: ['cpp','c'],
+        topics: ['cpp','c','socket','networking'],
         image : "/repoImages/message.jpg",
         url : "https://github.com/Superb-Man/cpp-Console-chat-and-Threads"
     },
@@ -47,7 +47,7 @@ export let repoProjects = [
                         the CYK-Algorithm for context-free grammar.I hope i can contribute 
                         further to this project.Hope it will help you to solve and find 
                         DFA,NFA,parsing ,CYK-Algorithm etc and help you verify your answer.`,
-        topics: ['json','cpp'],
+        topics: ['json','cpp','state-machine','CYK','Parser'],
         image : "/repoImages/toc.jpg",
         url : `https://github.com/Superb-Man/TOC-Solver`
     },
@@ -57,7 +57,7 @@ export let repoProjects = [
                         This was made as a part of the GameJam competition.
                         The game is about "you are not supposed to do that" concept
                         and we tried our best to make it fun and enjoyable.`,
-        topics: ['python3'],
+        topics: ['python3','game-development'],
         image : "/repoImages/game.jpg",
         url : `https://github.com/Superb-Man/Runners_GameJam`
     },
@@ -67,7 +67,7 @@ export let repoProjects = [
                         Implemented Minimax algorithm with alpha-beta pruning.
                         Play it now and have fun! .Thought of making it with openGL
                         but i'm too lazy to do that for now!`,
-        topics: ['javascript','html','css','cpp'],
+        topics: ['javascript','html','css','cpp','Adversarial Search game'],
         image : "/repoImages/mancala.jpg",
         url : `https://github.com/Superb-Man/Artificial-Intelligence_318/tree/master/Offline-2`
 
@@ -77,7 +77,7 @@ export let repoProjects = [
         description: `A simple program to find motifs in DNA sequences.Tried to enhance 
                     traditional Gibbs Sampler and Randomized Motif Search algorithms.
                     Used different approaches to find the best motif.`,
-        topics: ['python3'],
+        topics: ['python3','algorithms'],
         image : "/repoImages/motif.jpg",
         url : `https://github.com/Superb-Man/Find-Motifs`
     },
@@ -97,7 +97,7 @@ export let repoProjects = [
                         Implemented paging and page-replacement algorithms like FIFO.
                         Also implemented swap-space and page-fault handling for the memory management.Learnt
                         the detail functionality of call sequence of mapping and unmapping of pages in vm.c file.`,
-        topics : ['c','bash'],
+        topics : ['c','bash','swap-space','paging','page-fault'],
         image : "/repoImages/memory.jpg",
         url : `https://github.com/Superb-Man/Memory-Management`
     },
@@ -108,7 +108,7 @@ export let repoProjects = [
                         dx-ball,tower-of hanoi auto simulation etc.I made this project 
                         to have a little fun and to learn some basic javascript manipulation
                         and animation.`,
-        topics : ['javascript','html','css'],
+        topics : ['javascript','html','css','puzzle'],
         image : "/repoImages/Puzzle.jpg",
         url : `https://superb-man.github.io/Puzzle-Fun/`
     },
@@ -132,11 +132,28 @@ export let repoProjects = [
                         ECC algorithm was also implemented for symmetric key encryption.
                         RSA implemented with Miller-Rabin primality test and Euclidean algorithm for
                         finding the private and public key.Implemented primitive roots of any number up to 1000 in c++`,
-        topics : ['python3','cpp'],
+        topics : ['python3','cpp','AES','Diffie-Hellman','RSA cryptography'],
         image : "/repoImages/crypto.jpg",
         url : `https://github.com/Superb-Man/Cryptography`
     }
-    
+    ,
+    {
+        name : 'Graphics',
+        description : `Graphics project for learning purposes.Implented popular biliard ball simulation,
+                        rendered and transformed some 3D objects. Implemented Raster-based pipeline for rendering
+                        and lastly implemented ray-tracing for rendering 3D objects.`,
+        topics : ['cpp','graphics','ray-tracing','raseterization'],
+        image : "/repoImages/raytracer.jpg", 
+        url : `https://github.com/Superb-Man/Computer-Graphics`
+    },
+    {
+        name : 'Personal-Website',
+        description : `I tried to learn web-development using svelte or react more efficiently.I choose svelte although.
+                        And then started building it.`,
+        topics : ['javascript','svelte-kit','tailwindcss','web-development'],
+        image : "/repoImages/website.jpg",
+        url : `https://github.com/Superb-Man/Personal-Website` 
+    },
 
 ]
 

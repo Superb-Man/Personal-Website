@@ -3,7 +3,7 @@
 	export let repo;
 </script>
 
-<div class="group w-full overflow-hidden relative rounded-xl bg-white shadow-lg justify-self-center cursor-pointer transition transform hover:scale-105 hover:shadow-2xl border-8 border-orange-400 rounded-xl">
+<div class="group w-full overflow-hidden relative rounded-xl bg-white shadow-lg justify-self-center cursor-pointer transition transform hover:scale-105 hover:shadow-2xl border-8 hover:border-blue-900 rounded-xl">
 	<img
 		src={repo.image}
 		alt="project cover"
